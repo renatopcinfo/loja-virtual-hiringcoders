@@ -1,0 +1,117 @@
+
+body {
+    background-color: rgb(180, 180, 180);
+    font-family: sans-serif;
+}
+
+#cabecalho {
+    border: black 1px solid;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 5px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+#conteudo {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+a {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-decoration: unset;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#imgLoja {
+    width: 100%;
+}
+
+#tituloDestaque {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-shadow: gray 1px 1px 5px;
+}
+
+#produtos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtoDestaque {
+    border: gray 1px solid;
+    box-shadow: gray 2px 2px 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgDestaque {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    width: 50%;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.descDestaque {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+#rodape {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(110, 110, 110);
+    margin-top: 30px;
+}
+
+#redessociais {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rede {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#email {
+    margin-right: 50px;
+}
+
+#receba {
+    color: white;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(51, 133, 255);
+    width: 85px;
+    height: 50px;
+    border: rgb(51, 133, 255) 1px solid;
+    color: white;
+    font-size: 20px;
+}
